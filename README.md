@@ -25,6 +25,8 @@ npm run build
 <hr/>
 ## Surge Setup
 ### To Install Surge
+- Make a File named "CNAME" in [Public] Folder
+- Save your domain as your wish inside the "CNAME" File.
 ~~~
 npm install --global surge
 ~~~
@@ -35,12 +37,12 @@ surge dist
 
 - [CPY the domain] given from surge.
 - Make a File named "CNAME" in [Public] Folder
-- Save The domain insite the "CNAME" File.
+- Save The domain inside the "CNAME" File.
 
 <hr/>
 
 ## To Publish On netlify
-- After npm run build Copy-Paste the "dist" folder on netlify
+- After npm run build Copy-Paste the "dist" folder on Netlify
 
 <hr/>
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
